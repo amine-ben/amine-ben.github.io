@@ -1,0 +1,106 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+//buttons
+.btn-github .icon {
+    opacity: 0.6;
+    background: url("../images/github.png") 0 0 no-repeat;
+  }
+.btn-linkedin .icon {
+    opacity: 0.6;
+    background: url("../images/linkedin.png") 0 0 no-repeat;
+  }
+.btn-twitter .icon {
+  opacity: 0.6;
+  background: url("../images/twitter.png") 0 0 no-repeat;
+}
+.btn-scholar .icon { opacity: 0.6;
+  background: url("../images/google-scholar.png") 0 0 no-repeat;
+}
+.btn-google-plus .icon { opacity: 0.6;
+  background: url("../images/google-plus.png") 0 0 no-repeat;
+}
+.btn-pdf { opacity: 0.6;
+  background: url("../images/pdf-file.png") 0 0 no-repeat;
+  width: 16px;
+  height: 24px;
+}
+.container-large { width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.table .tbody .td {
+  text-align: left;
+  border-bottom: 1px dashed #b5e853;
+  padding: 5px 10px;
+}
+.table th { text-align: left;
+  padding: 5px 10px;
+}
+hr {
+  height: 0;
+  border: 0;
+  color: #b5e853;
+}
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 1px dashed #b5e853;
+  padding: 20px 0;
+  margin: 0 0 40px 0;
+  font-size: 10px;}
+
+table.hackerTable {
+  border: 1px dashed #b5e853;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.hackerTable td, table.hackerTable th {
+  border: 1px dashed #b5e853;
+  padding: 3px 2px;
+}
+table.hackerTable tbody td {
+  font-size: 13px;
+}
+
+table.hackerTable thead {
+  border-bottom: 1px dashed #b5e853;
+}
+table.hackerTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 1px dashed #b5e853;
+}
+table.hackerTable thead th:first-child {
+  border-left: none;
+}
+
+table.hackerTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-top: 2px solid #444444;
+}
+table.hackerTable tfoot td {
+  font-size: 14px;
+}
+table.hackerTable tfoot .links {
+  text-align: right;
+}
+table.hackerTable tfoot .links a{
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.caption {
+  text-align: center;
+  font-style: oblique;
+}
+.no-borer {
+  border-bottom:  0px;
+}

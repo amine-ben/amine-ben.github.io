@@ -48,6 +48,13 @@
           </tr>
         </table>
 <h2 id="welcome-msg">Tools</h2>
+<h3>Maven-miner: Mining the dependency graph of Mven Central (Main developer)</h3>
+<p>Maven miner is a set of java tools aiming at, programmatically, resolving all Maven dependencies hosted in the Maven central repository, then, storing them into a graph database. 
+  First, the maven central index is resolved and transformed into a flat file, containing all the hosted dependencies using the maven-indexer tool. 
+  Later, this file can be passed to the maven-miner tool in order to collect dependency requests for each artifact available in the file. 
+  We rely on Neo4j, a well-known graph database, to persist the maven dependency graph.
+  <a href="https://github.com/diverse-project/maven-miner"><img src=./assets/images/github.png></a>
+</p>
 <h3>ATL-MR: Model Transformation with ATL on MapReduce (Main developer)</h3>
 <p>ATL-MR is a prototype tool for running complex ATL transformation in the cloud using Hadoop MapReduce. ATL-MR is implemented on top of an extended ATL VM that can be found here.
   Coupling ATL-MR with the <a href="https://github.com/atlanmod/EMFTVM-D">extended VM</a> has proved a good performance, especially in terms of execution time.
